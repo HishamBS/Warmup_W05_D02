@@ -8,8 +8,11 @@ return <StudentCard name={e}/>
 }) 
     render() {
         return (
+
         <div>
+              <div className="container">
             {this.allNames}
+            </div>
         </div>
         )
     }
