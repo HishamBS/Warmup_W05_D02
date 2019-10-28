@@ -20,6 +20,7 @@ handleLeftClick = e => {
 }
 handleRightClick = e =>
 {
+  e.preventDefault();
     this.setState({
         color: "blue",
         img: "https://cdn11.bigcommerce.com/s-sq9zkarfah/images/stencil/350x350/products/117228/204948/Hulk-379-Decal-Sticker__73044.1511165171.jpg?c=2",

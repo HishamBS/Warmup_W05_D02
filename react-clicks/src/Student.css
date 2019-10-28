@@ -1,14 +1,17 @@
 * {
   font-family: courier;
   outline: none;
+ 
 }
 .card {
   box-shadow: 0 1px 10px 0 rgba(0, 45, 20, 0.2);
   transition: 0.3s;
-  width: 40%;
+  width: 20%;
+  height: 10%;
   margin: 0 auto;
   border: solid 4px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .card:hover {
@@ -18,6 +21,9 @@
 
 .container {
   padding: 10px 15px;
+}
+li {
+  list-style-type: none;
 }
 ul {
   list-style-type: none;
